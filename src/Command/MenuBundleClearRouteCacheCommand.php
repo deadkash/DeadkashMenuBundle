@@ -1,6 +1,6 @@
 <?php
 
-namespace MenuBundle\Command;
+namespace Deadkash\MenuBundle\Command;
 
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;

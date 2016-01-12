@@ -1,6 +1,6 @@
 <?php
 
-namespace MenuBundle\DependencyInjection;
+namespace Deadkash\MenuBundle\DependencyInjection;
 
 
 use MenuBundle\DependencyInjection\Configuration;

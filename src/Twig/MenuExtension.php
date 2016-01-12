@@ -1,6 +1,6 @@
 <?php
 
-namespace MenuBundle\Twig;
+namespace Deadkash\MenuBundle\Twig;
 
 
 use Symfony\Component\DependencyInjection\ContainerInterface;

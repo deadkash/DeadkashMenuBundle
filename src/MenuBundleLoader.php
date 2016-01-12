@@ -1,6 +1,6 @@
 <?php
 
-namespace MenuBundle;
+namespace Deadkash\MenuBundle;
 
 
 use Symfony\Component\Config\Loader\LoaderInterface;

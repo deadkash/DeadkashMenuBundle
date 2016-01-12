@@ -1,6 +1,6 @@
 <?php
 
-namespace MenuBundle\Service;
+namespace Deadkash\MenuBundle\Service;
 
 
 use Exception;

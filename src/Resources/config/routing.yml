@@ -1,0 +1,3 @@
+menubundle.extra_routing:
+    resource: .
+    type: deadkashmenubundle

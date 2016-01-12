@@ -1,0 +1,15 @@
+{
+  "name": "deadkash/menu-bundle",
+  "type": "library",
+  "description": "Symfony2 bundle for creating menu",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": "2.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deadkash\\MenuBundle\\": "src/"
+    }
+  }
+}

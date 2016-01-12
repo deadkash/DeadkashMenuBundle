@@ -26,7 +26,7 @@ class MenuExtension extends \Twig_Extension
      */
     public function getName()
     {
-        return 'menubundle_extension';
+        return 'deadkashmenubundle_extension';
     }
 
     /**
@@ -45,6 +45,6 @@ class MenuExtension extends \Twig_Extension
      */
     public function render($type)
     {
-        return $this->container->get('menubundle')->buildMenu($type);
+        return $this->container->get('deadkashmenubundle')->buildMenu($type);
     }
 }

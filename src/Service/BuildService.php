@@ -14,7 +14,7 @@ class BuildService
 {
     const MENUBUNDLE_SOURCE     = 'deadkashmenubundle.source';
     const MENUBUNDLE_TEMPLATES  = 'deadkashmenubundle.templates';
-    const DEFAULT_TEMPLATE      = 'MenuBundle::menu.html.twig';
+    const DEFAULT_TEMPLATE      = 'DeadkashMenuBundle::menu.html.twig';
 
     /**
      * @var ContainerInterface

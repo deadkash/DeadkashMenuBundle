@@ -1,16 +1,16 @@
 services:
   deadkashmenubundle.routing_loader:
-      class: MenuBundle\MenuBundleLoader
+      class: Deadkash\MenuBundle\MenuBundleLoader
       arguments: [@service_container]
       tags:
           - { name: routing.loader }
 
   deadkashmenubundle:
-      class: MenuBundle\Service\BuildService
+      class: Deadkash\MenuBundle\Service\BuildService
       arguments: [@service_container]
 
   deadkashmenubundle.twig.extension:
-      class: MenuBundle\Twig\MenuExtension
+      class: Deadkash\MenuBundle\Twig\MenuExtension
       arguments: [ @service_container ]
       tags:
           - { name: twig.extension }

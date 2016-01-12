@@ -4,8 +4,8 @@ namespace Deadkash\MenuBundle\Service;
 
 
 use Exception;
-use MenuBundle\MenuItem;
-use MenuBundle\MenuSourceInterface;
+use Deadkash\MenuBundle\MenuItem;
+use Deadkash\MenuBundle\MenuSourceInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;

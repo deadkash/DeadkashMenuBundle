@@ -3,7 +3,7 @@
 namespace Deadkash\MenuBundle;
 
 
-use MenuBundle\DependencyInjection\MenuExtension;
+use Deadkash\MenuBundle\DependencyInjection\MenuExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class MenuBundle extends Bundle

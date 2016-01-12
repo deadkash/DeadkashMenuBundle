@@ -3,8 +3,8 @@
 namespace Deadkash\MenuBundle\DependencyInjection;
 
 
-use MenuBundle\DependencyInjection\Configuration;
-use MenuBundle\Service\BuildService;
+use Deadkash\MenuBundle\DependencyInjection\Configuration;
+use Deadkash\MenuBundle\Service\BuildService;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;

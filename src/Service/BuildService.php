@@ -86,11 +86,11 @@ class BuildService
 
     /**
      * @param $type
+     * @param null $parent
      * @return string
      * @throws Exception
-     * @throws \Twig_Error
      */
-    public function buildMenu($type)
+    public function buildMenu($type, $parent = null)
     {
         $templater = $this->container->get('templating');
         $templates = ($this->container->hasParameter(self::MENUBUNDLE_TEMPLATES)) ?
@@ -99,7 +99,7 @@ class BuildService
         $template = (isset($templates[$type])) ? $templates[$type] : self::DEFAULT_TEMPLATE;
 
         return $templater->render($template, array(
-            'items' => $this->getSource()->getTree($type),
+            'items' => $this->getSource()->getTree($type, $parent),
             'type' => $type
         ));
     }

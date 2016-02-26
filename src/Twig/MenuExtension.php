@@ -41,10 +41,11 @@ class MenuExtension extends \Twig_Extension
 
     /**
      * @param string $type
+     * @param null $parent
      * @return string
      */
-    public function render($type)
+    public function render($type, $parent = null)
     {
-        return $this->container->get('deadkashmenubundle')->buildMenu($type);
+        return $this->container->get('deadkashmenubundle')->buildMenu($type, $parent);
     }
 }

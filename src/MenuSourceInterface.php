@@ -13,7 +13,8 @@ interface MenuSourceInterface
 
     /**
      * @param mixed $type
+     * @param null $parent
      * @return array
      */
-    public function getTree($type);
+    public function getTree($type, $parent = null);
 }
